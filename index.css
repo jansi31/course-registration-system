@@ -1,0 +1,11 @@
+.courses {
+    margin-left: 30px;
+    justify-content: center;
+}
+.courses a{
+    justify-content: center;
+}
+button{
+    padding: 10px;
+    justify-content: center;
+}

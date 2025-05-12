@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <style>
+            body{
+               text-align: center;
+            }
+            .tab{
+                text-align: center;
+            }
+            form{
+                margin: auto;
+                padding:20px;
+                width:400px;
+            }
+            button{
+                background-color: aliceblue;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Registration Form</h1>
+        <form action="http://localhost:8080/courses/register" method="post">
+            <div class="tab">
+            <table>
+                <tr>
+                    <td>Enter your email Id:</td>
+                    <td><input type="text" name="emailId"></td>
+                </tr>
+                <tr>
+                    <td>Enter your name:</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>select the course</td>
+                   <td><select name="coursename"><option value="java">Java</option>
+                    <option value="python">Python</option>
+                    <option value="Spring">spring</option></td> 
+                </select>
+
+                </tr>
+
+            </table>
+            <button type="submit">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
